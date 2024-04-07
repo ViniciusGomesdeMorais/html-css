@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav {
+            background-color: rgb(56, 54, 54);
+            padding: 3px;  
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.404) ;
+        }
+        nav > a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            margin-right: 10px;
+            padding: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+        main {
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(113, 107, 107);
+            color: #ffffff;
+            padding: 1px 10px;
+        }
+        footer {
+            background-color: black;
+            color: #ffffff;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin:  0px;
+        }
+        #circulo {
+            background-color: #ffffff;
+            height: 200px;
+            width: 200px;
+            margin: 50px;
+            border-radius: 50%;
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <footer>
+        <p>Conteudo topo do site</p>
+    </footer>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale conosco</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, fugit doloribus? Adipisci iure id ab provident voluptate sit corrupti eligendi, ducimus voluptas possimus vitae? Ex iste tempora at adipisci eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum fugiat quaerat consectetur eligendi perspiciatis eos nisi. Facilis quaerat, ab ipsam necessitatibus odit dignissimos corporis natus sit tempore provident minima?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquam voluptate, quibusdam, nihil commodi porro magni optio tenetur dignissimos quos unde, vitae molestias soluta. Illum, hic? Amet voluptates commodi est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum recusandae vitae repellendus nulla alias! Sed iusto dolore earum expedita molestias ea fugit quasi, aspernatur facere, sapiente accusantium accusamus nobis tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsum ad ducimus quisquam. Nostrum ipsum incidunt porro voluptatem voluptas quibusdam quae accusamus sunt cumque omnis? Dignissimos necessitatibus excepturi praesentium nemo! 
+                </p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <div id="circulo">
+    </div>
+
+    <footer>
+            <p>Desenvolvido por CursoemVídeo</p>
+    </footer>
+    
+</body>
+</html>

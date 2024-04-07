@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <title>Imagem Flexível</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        body {
+            background-color: #727a7c;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+                       
+        }
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 20px;
+        }
+        header {
+            background-color: #273032c5;
+            color: aliceblue;
+            padding: 20px;
+            
+        }
+        main {
+            margin: 40px;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Imagem Flexível</h1>
+        
+        <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitara melhor experiencia &#x1F92F;</p>
+    </header>
+
+    <main>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1220px)" srcset="imagens/paisagem-m.png" type="image/png">
+            <img src="imagens/paisagem-g.png" alt="Imagem Flexivel">
+        </picture>
+    </main>
+</body>
+</html>

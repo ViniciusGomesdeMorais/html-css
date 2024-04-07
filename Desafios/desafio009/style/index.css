@@ -1,0 +1,21 @@
+body {
+    background-color: #0A0A0A;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+header {
+    background: rgba(255, 0, 0, 0.673);
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    background-color:#1F1F1F;
+    max-width: 550px;
+    padding: 30px 10px 30px 10px;
+    margin: 15px auto;
+    border-radius: 10px;}
+footer {
+       background: rgba(255, 0, 0, 0.673);
+       padding: 1px;
+}
